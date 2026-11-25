@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react';
 import type { ReactNode } from 'react';
 import type { ShortenedLink } from '../types';
-import { useSavedLinks } from '../hooks/useSavedLinks';
+import { useSavedLinks } from '../hooks/useSavedLinks.ts';
 
 // Define what data and functions the context will provide
 interface LinkContextType {
