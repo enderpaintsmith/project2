@@ -1,25 +1,31 @@
+// Hero component renders the main introductory section
 export default function Hero() {
     return (
-    <section className="hero">
-        <div className="hero-content">
-            <h1>More than just shorter links</h1>
+        <section className="hero">
 
-            <p>
-                Build your brand's recognition and get detailed
-                insights on how your links are performing
-            </p>
+            {/* Main heading, description, and call to action */}
+            <div className="hero-content">
+                <h1>More than just shorter links</h1>
 
-            <a href="#shortener" className="btn">
-                Get Started
-            </a>
-        </div>
+                <p>
+                    Build your brand's recognition and get detailed
+                    insights on how your links are performing.
+                </p>
 
-        <div className="hero-image">
-            <img
-            src="/images/illustration-working.svg"
-            alt="Person working at a desk"
-            />
-        </div>
-    </section>
+                {/* Navigate to the URL shortener section */}
+                <a href="#shortener" className="btn">
+                    Get Started
+                </a>
+            </div>
+
+            {/* Hero illustration pulled from the public images folder */}
+            <div className="hero-image">
+                <img
+                    src="/images/illustration-working.svg"
+                    alt="Person working at a desk"
+                />
+            </div>
+
+        </section>
     );
 }
