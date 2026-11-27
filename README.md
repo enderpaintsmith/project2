@@ -2,7 +2,7 @@
 
 ## Overview
 
-For my second cumulative project at Per Scholas, I decided to rebuild my original Shortly URL Shortening application using React and TypeScript.
+For my second cumulative project we rebuilt my original Shortly URL Shortening application from project 1 using React and TypeScript.
 
 Having previously rebuilt the application using HTML, CSS, and JavaScript, I wanted to retain the original design and functionality while applying the React concepts I had been learning throughout the course, particularly component composition, state management, side effects, custom hooks, and the Context API.
 
@@ -111,9 +111,9 @@ For this project, the challenge was to take a previously built, fully functional
 
 One of the biggest differences was moving away from directly manipulating the DOM and instead understanding how React renders components based on changes in state. Breaking the application into individual components also helped me better understand how data is passed, accessed, and updated throughout a react application.
 
-I was able to incorporate concepts from Labs 10.1–10.3, including state management, side effects, cleanup functions, custom hooks, and the Context API. Applying these concepts within a larger application helped me understand how they relate to one another beyond the individual lab exercises.
+I was able to incorporate concepts from Labs 10.1–10.4, including state management, side effects, cleanup functions, custom hooks, and the Context API. Applying these concepts within a larger application helped me understand how they relate to one another on a larger scale.
 
-Throughout the rebuild, I approached the code one component and function at a time. I included comments to reinforce my understanding of the syntax, what each section of code was responsible for, and the order in which operations occurred. I wanted to understand why I was implementing something rather than simply getting it to work.
+Throughout this rebuild, I approached the code one component and function at a time. I included comments to reinforce my understanding of the syntax, what each section of code was responsible for, and the order in which operations occurred. I wanted to be certian of why I was implementing something rather than simply getting it to work.
 
 The API integration and Vercel configuration presented some challenges, particularly when establishing communication between the frontend and serverless function and configuring the environment variables for the new project.
 
@@ -123,3 +123,15 @@ Overall, I still have a lot to learn when it comes to implementing these concept
 
 Frontend Mentor for the original design challenge,
 React documentation, MDN Reference, previous projects, and Per Scholas for the curriculum, labs, and learning resources that contributed to the development of this project.
+
+### Project Configuration and Tooling
+
+- [npm package.json](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+- [npm Scripts](https://docs.npmjs.com/cli/v11/using-npm/scripts)
+- [Semantic Versioning](https://semver.org/)
+- [JavaScript Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [React Documentation](https://react.dev/)
+- [React DOM](https://react.dev/reference/react-dom)
+- [Vite Documentation](https://vite.dev/guide/)
+- [TypeScript Project References](https://www.typescriptlang.org/docs/handbook/project-references.html)
+- [Oxlint Documentation](https://oxc.rs/docs/guide/usage/linter.html)
